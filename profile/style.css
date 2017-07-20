@@ -1,0 +1,81 @@
+/* Here goes your CSS */
+body {
+  color: rgb(40,40,40);
+  background-color: rgb(209, 209, 209);
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  line-height: 150%;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 500px;   /* Set width */
+  margin: 0 auto; /* Automatically set left/right margins */
+}
+
+.card {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+#img-circle {
+  border-radius: 50%;
+}
+
+.logo {
+  width: 200px;
+}
+
+.image-size {
+  width: 280px;
+}
+
+li i { margin-right: 10px; }
+
+li {
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 0px;
+}
+
+h1 {
+  color: rgb(234, 86, 86);
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  color: rgb(130, 130, 130);
+}
+
+.btn-red {
+    background-color: #DD5555;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
